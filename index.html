@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تولد شاهنشاه</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url('birthday_background.png'); /* تصویر پس‌زمینه */
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #be0606; /* رنگ طلایی */
+            color: rgb(228, 165, 31);
+            padding: 20px;
+            text-align: center;
+            /* تزیین با سایه‌دهی */
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        h1 {
+            font-size: 48px; /* افزایش اندازه فونت */
+            margin-bottom: 10px; /* افزایش حاشیه پایین */
+            /* اضافه کردن انیمیشن */
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        nav {
+            background-color: #ffa114;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #be0606;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* اضافه کردن استایل به متن "تولدت مبارک فردین" */
+        #birthday-message {
+            font-size: 60px; /* افزایش اندازه فونت */
+            color: #ffd700; /* رنگ طلایی */
+            font-weight: bold; /* متن به‌صورت ضخیم */
+            text-shadow: 2px 2px 4px #888888; /* سایه‌دهی به متن */
+            padding: 20px; /* افزایش حاشیه داخلی */
+            border: 3px solid #000000; /* افزودن حاشیه و خط حاشیه */
+            border-radius: 10px; /* گوشه‌های گرد */
+            background-color: rgba(255, 255, 255, 0.8); /* پس‌زمینه نصف‌شفاف */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* سایه‌دهی با تراکنش */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>شاهندشاه گیمینگ</h1>
+        <p>سایت رسمی شاهنشاهی تقدیم میکند</p>
+        <img src="crown.png" alt="تاج تولد" width="100">
+    </header>
+    <!-- حذف ناوبری -->
+    <main>
+        <!-- نمایش متن "تولدت مبارک فردین" به صورت بزرگ -->
+        <p id="birthday-message">تولدت مبارک فردین</p>
+    </main>
+    <footer>
+        &copy; 2023 تولد شاهنشاه
+    </footer>
+</body>
+</html>
